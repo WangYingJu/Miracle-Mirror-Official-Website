@@ -1,0 +1,252 @@
+.accordion-container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  position: relative;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .accordion-container {
+    max-height: none;
+  }
+}
+
+.accordion-container .accordion {
+  width: 9999px;
+  height: 100%;
+  position: relative;
+}
+
+.accordion-container .accordion .accordion-item-container {
+  height: 100%;
+  float: left;
+  top: 0;
+  overflow: hidden;
+}
+
+.accordion-container .accordion .accordion-item-container:focus,
+.accordion-container .accordion .accordion-item-container:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.accordion-container
+  .accordion
+  .accordion-item-container
+  .accordion-item-content {
+  position: relative;
+  height: 100%;
+}
+
+.accordion-container
+  .accordion
+  .accordion-item-container
+  .accordion-item-content
+  .accordion-item-text {
+  position: absolute;
+  top: 38%;
+  width: 80%;
+  font-size: 60px;
+}
+@media (max-width: 1087px) {
+  .accordion-container
+    .accordion
+    .accordion-item-container
+    .accordion-item-content {
+    width: calc(100% - 60px);
+  }
+}
+
+.accordion-container
+  .accordion
+  .accordion-item-container
+  .accordion-item-content
+  img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.accordion-container
+  .accordion
+  .accordion-item-container
+  .accordion-item-content
+  > div {
+  width: 31%;
+}
+
+.accordion-container .accordion .accordion-item-container div {
+  float: left;
+}
+
+.accordion-container
+  .accordion
+  .accordion-item-container
+  div
+  div.accordion-item-info {
+  width: 69%;
+  background: rgba(59, 49, 54, 0.2) url("../image/c_nav_right_bg.png") no-repeat;
+  background-size: 100% 35vw;
+  padding-bottom: 9999px;
+  margin-bottom: -9999px;
+  position: relative;
+}
+
+.accordion-container .accordion .accordion-item-container div div.close {
+  float: right;
+  width: 5vw;
+  height: 5vw;
+  line-height: 1.3vw;
+  margin-top: 1.1vw;
+  margin-left: 7%;
+  padding-right: 5%;
+  font-size: 0.8vw;
+  z-index: 99;
+  clear: both;
+  position: relative;
+  /* background: url("../images/img_back.png") no-repeat top; */
+  background-size: 90%;
+}
+
+.accordion-container .accordion .accordion-item-container div div.close:focus,
+.accordion-container .accordion .accordion-item-container div div.close:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.accordion-container .accordion .accordion-item-container .accordion-item-text {
+  font-family: Bangers, cursive;
+  color: #fff;
+  text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.7);
+  transition: all 0.1s ease-in;
+  -webkit-transform: skew(-51deg, 52deg) rotate(-53deg) translateX(34%)
+    scale(0.6);
+  transform: skew(-51deg, 52deg) rotate(-53deg) translateX(34%) scale(0.6);
+}
+
+.accordion-container .accordion .accordion-item-container.active:focus,
+.accordion-container .accordion .accordion-item-container.active:hover {
+  cursor: default;
+  opacity: 1;
+}
+
+@-webkit-keyframes touchicon {
+  0% {
+    opacity: 0;
+    right: 20%;
+  }
+  10% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    right: 20%;
+  }
+  15%,
+  38% {
+    opacity: 1;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  40% {
+    opacity: 1;
+    right: 20%;
+  }
+  41% {
+    opacity: 1;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    right: 20%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+  }
+  80% {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    opacity: 1;
+    right: 60%;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  81% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    right: 60%;
+  }
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 1;
+  }
+}
+@keyframes touchicon {
+  0% {
+    opacity: 0;
+    right: 20%;
+  }
+  10% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    right: 20%;
+  }
+  15%,
+  38% {
+    opacity: 1;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  40% {
+    opacity: 1;
+    right: 20%;
+  }
+  41% {
+    opacity: 1;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    right: 20%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+  }
+  80% {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    opacity: 1;
+    right: 60%;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  81% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    right: 60%;
+  }
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 1;
+  }
+}
+
+.acc-small-screen-check {
+  display: block;
+}
+@media (min-width: 768px) {
+  .acc-small-screen-check {
+    display: none;
+  }
+}
+
+.clearfix::after,
+.clearfix::before {
+  display: table;
+  content: " ";
+}
+
+.clearfix::after {
+  clear: both;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,550 @@
+@charset "utf-8";
+
+/*聖堂*/
+/*子選項*/
+.job_tab_box{
+    position: absolute;
+    width: 19.92%;
+    height: auto;
+    background-color: rgba(127, 255, 212, 0);	/*顏色標記*/
+    padding-bottom: 0%;
+    top: 90.8%;
+    left: 25.6%;
+    z-index: 66;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.job_inner_tab_1 {
+	display: inline-block;
+	background-color: #3e09a100;	/*顏色標記*/
+	width: 100%;
+	height: auto;
+	padding-bottom: 20%;
+    margin-bottom: 2%;
+}
+
+.job_inner_tab_1:nth-child(1){
+    background: url(../images/job_tab_1_2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-right: 2%;
+}
+
+.job_inner_tab_1:nth-child(2){
+    background: url(../images/job_tab_1_4.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-left: 5%;
+}
+
+.job_inner_tab_1:nth-child(1).now1 {
+	background-image: url(../images/job_tab_1_1.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-right: 2%;
+}
+
+.job_inner_tab_1:nth-child(2).now1 {
+	background-image: url(../images/job_tab_1_3.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-left: 5%;
+}
+
+/*子內容區*/
+.job_info_box {
+    position: absolute;
+    width: 14.02%;
+    height: auto;
+    padding-bottom: 13%;
+    top: 56%;
+    left: 28.4%;
+    z-index: 64;
+    background-color: #f04f0f00;
+	/*顏色標記*/
+
+	display: block;
+}
+
+.job_inner_con_1 {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	padding-bottom: 0%;
+	background-color: #0ff06d00;
+	/*顏色標記*/
+	display: none;
+}
+
+.job_inner_con_1.now1 {
+	display: block;
+    animation: big 0.2s ease-in-out;
+    -webkit-animation: big 0.2s ease-in-out;
+}
+
+
+/*玉虛*/
+/*子選項*/
+.job_tab_box{
+    position: absolute;
+    width: 19.92%;
+    height: auto;
+    background-color: rgba(127, 255, 212, 0);	/*顏色標記*/
+    padding-bottom: 0%;
+    top: 90.8%;
+    left: 25.6%;
+    z-index: 66;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.job_inner_tab_2 {
+	display: inline-block;
+	background-color: #3e09a100;	/*顏色標記*/
+	width: 100%;
+	height: auto;
+	padding-bottom: 20%;
+    margin-bottom: 2%;
+}
+
+.job_inner_tab_2:nth-child(1){
+    background: url(../images/job_tab_2_2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-right: 2%;
+}
+
+.job_inner_tab_2:nth-child(2){
+    background: url(../images/job_tab_2_4.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-left: 5%;
+}
+
+.job_inner_tab_2:nth-child(1).now2 {
+	background-image: url(../images/job_tab_2_1.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-right: 2%;
+}
+
+.job_inner_tab_2:nth-child(2).now2 {
+	background-image: url(../images/job_tab_2_3.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-left: 5%;
+}
+
+/*子內容區*/
+.job_info_box {
+    position: absolute;
+    width: 14.02%;
+    height: auto;
+    padding-bottom: 13%;
+    top: 56%;
+    left: 28.4%;
+    z-index: 64;
+    background-color: #f04f0f00;
+	/*顏色標記*/
+
+	display: block;
+}
+
+.job_inner_con_2 {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	padding-bottom: 0%;
+	background-color: #0ff06d00;
+	/*顏色標記*/
+	display: none;
+}
+
+.job_inner_con_2.now2 {
+	display: block;
+    animation: big 0.2s ease-in-out;
+    -webkit-animation: big 0.2s ease-in-out;
+}
+
+/*靈龍*/
+/*子選項*/
+.job_tab_box{
+    position: absolute;
+    width: 19.92%;
+    height: auto;
+    background-color: rgba(127, 255, 212, 0);	/*顏色標記*/
+    padding-bottom: 0%;
+    top: 90.8%;
+    left: 25.6%;
+    z-index: 66;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.job_inner_tab_3 {
+	display: inline-block;
+	background-color: #3e09a100;	/*顏色標記*/
+	width: 100%;
+	height: auto;
+	padding-bottom: 20%;
+    margin-bottom: 2%;
+}
+
+.job_inner_tab_3:nth-child(1){
+    background: url(../images/job_tab_3_2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-right: 2%;
+}
+
+.job_inner_tab_3:nth-child(2){
+    background: url(../images/job_tab_3_4.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-left: 5%;
+}
+
+.job_inner_tab_3:nth-child(1).now3 {
+	background-image: url(../images/job_tab_3_1.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-right: 2%;
+}
+
+.job_inner_tab_3:nth-child(2).now3 {
+	background-image: url(../images/job_tab_3_3.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-left: 5%;
+}
+
+/*子內容區*/
+.job_info_box {
+    position: absolute;
+    width: 14.02%;
+    height: auto;
+    padding-bottom: 13%;
+    top: 56%;
+    left: 28.4%;
+    z-index: 64;
+    background-color: #f04f0f00;
+	/*顏色標記*/
+
+	display: block;
+}
+
+.job_inner_con_3 {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	padding-bottom: 0%;
+	background-color: #0ff06d00;
+	/*顏色標記*/
+	display: none;
+}
+
+.job_inner_con_3.now3 {
+	display: block;
+    animation: big 0.2s ease-in-out;
+    -webkit-animation: big 0.2s ease-in-out;
+}
+
+
+/*光刃*/
+/*子選項*/
+.job_tab_box{
+    position: absolute;
+    width: 19.92%;
+    height: auto;
+    background-color: rgba(127, 255, 212, 0);	/*顏色標記*/
+    padding-bottom: 0%;
+    top: 90.8%;
+    left: 25.6%;
+    z-index: 66;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.job_inner_tab_4 {
+	display: inline-block;
+	background-color: #3e09a100;	/*顏色標記*/
+	width: 100%;
+	height: auto;
+	padding-bottom: 20%;
+    margin-bottom: 2%;
+}
+
+.job_inner_tab_4:nth-child(1){
+    background: url(../images/job_tab_4_2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-right: 2%;
+}
+
+.job_inner_tab_4:nth-child(2){
+    background: url(../images/job_tab_4_4.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-left: 5%;
+}
+
+.job_inner_tab_4:nth-child(1).now4 {
+	background-image: url(../images/job_tab_4_1.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-right: 2%;
+}
+
+.job_inner_tab_4:nth-child(2).now4 {
+	background-image: url(../images/job_tab_4_3.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-left: 5%;
+}
+
+/*子內容區*/
+.job_info_box {
+    position: absolute;
+    width: 14.02%;
+    height: auto;
+    padding-bottom: 13%;
+    top: 56%;
+    left: 28.4%;
+    z-index: 64;
+    background-color: #f04f0f00;
+	/*顏色標記*/
+
+	display: block;
+}
+
+.job_inner_con_4 {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	padding-bottom: 0%;
+	background-color: #0ff06d00;
+	/*顏色標記*/
+	display: none;
+}
+
+.job_inner_con_4.now4 {
+	display: block;
+    animation: big 0.2s ease-in-out;
+    -webkit-animation: big 0.2s ease-in-out;
+}
+
+
+/*流光*/
+/*子選項*/
+.job_tab_box{
+    position: absolute;
+    width: 19.92%;
+    height: auto;
+    background-color: rgba(127, 255, 212, 0);	/*顏色標記*/
+    padding-bottom: 0%;
+    top: 90.8%;
+    left: 25.6%;
+    z-index: 66;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.job_inner_tab_5 {
+	display: inline-block;
+	background-color: #3e09a100;	/*顏色標記*/
+	width: 100%;
+	height: auto;
+	padding-bottom: 20%;
+    margin-bottom: 2%;
+}
+
+.job_inner_tab_5:nth-child(1){
+    background: url(../images/job_tab_5_2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-right: 2%;
+}
+
+.job_inner_tab_5:nth-child(2){
+    background: url(../images/job_tab_5_4.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-left: 5%;
+}
+
+.job_inner_tab_5:nth-child(1).now5 {
+	background-image: url(../images/job_tab_5_1.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-right: 2%;
+}
+
+.job_inner_tab_5:nth-child(2).now5 {
+	background-image: url(../images/job_tab_5_3.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-left: 5%;
+}
+
+/*子內容區*/
+.job_info_box {
+    position: absolute;
+    width: 14.02%;
+    height: auto;
+    padding-bottom: 13%;
+    top: 56%;
+    left: 28.4%;
+    z-index: 64;
+    background-color: #f04f0f00;
+	/*顏色標記*/
+
+	display: block;
+}
+
+.job_inner_con_5 {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	padding-bottom: 0%;
+	background-color: #0ff06d00;
+	/*顏色標記*/
+	display: none;
+}
+
+.job_inner_con_5.now5 {
+	display: block;
+    animation: big 0.2s ease-in-out;
+    -webkit-animation: big 0.2s ease-in-out;
+}
+
+
+/*光昭*/
+/*子選項*/
+.job_tab_box{
+    position: absolute;
+    width: 19.92%;
+    height: auto;
+    background-color: rgba(127, 255, 212, 0);	/*顏色標記*/
+    padding-bottom: 0%;
+    top: 90.8%;
+    left: 25.6%;
+    z-index: 66;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.job_inner_tab_6 {
+	display: inline-block;
+	background-color: #3e09a100;	/*顏色標記*/
+	width: 100%;
+	height: auto;
+	padding-bottom: 20%;
+    margin-bottom: 2%;
+}
+
+.job_inner_tab_6:nth-child(1){
+    background: url(../images/job_tab_6_2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-right: 2%;
+}
+
+.job_inner_tab_6:nth-child(2){
+    background: url(../images/job_tab_6_4.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-left: 5%;
+}
+
+.job_inner_tab_6:nth-child(1).now6 {
+	background-image: url(../images/job_tab_6_1.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-right: 2%;
+}
+
+.job_inner_tab_6:nth-child(2).now6 {
+	background-image: url(../images/job_tab_6_3.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    padding-bottom: 17%;
+    margin-left: 5%;
+}
+
+/*子內容區*/
+.job_info_box {
+    position: absolute;
+    width: 14.02%;
+    height: auto;
+    padding-bottom: 13%;
+    top: 56%;
+    left: 28.4%;
+    z-index: 64;
+    background-color: #f04f0f00;
+	/*顏色標記*/
+
+	display: block;
+}
+
+.job_inner_con_6 {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	padding-bottom: 0%;
+	background-color: #0ff06d00;
+	/*顏色標記*/
+	display: none;
+}
+
+.job_inner_con_6.now6 {
+	display: block;
+    animation: big 0.2s ease-in-out;
+    -webkit-animation: big 0.2s ease-in-out;
+}
+
+
+@keyframes big {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

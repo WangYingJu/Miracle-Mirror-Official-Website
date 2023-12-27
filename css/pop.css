@@ -1,0 +1,1326 @@
+@charset "utf-8";
+
+/*--↓MV pop↓--*/
+.MV_test_pop_1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 400;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.MV_inner_pop_1 {
+  position: relative;
+  width: 80%;
+  max-width: 768px;
+  height: auto;
+  padding-bottom: 40%;
+  margin: auto;
+  display: none;
+  background-color: rgba(172, 223, 54, 0);
+}
+
+.MV_star_1 {
+  position: absolute;
+  width: 40%;
+  height: auto;
+  top: 16%;
+  left: -3%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.MV_star_2 {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 85%;
+  left: 103%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.MV_btn_retest {
+  margin-left: 20px;
+}
+
+.MV_box {
+  position: absolute;
+  width: 100%;
+  height: 438px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: #56555d 5px solid;
+}
+
+.MV_br {
+  position: absolute;
+  width: 110.4%;
+  height: auto;
+  top: 49.4%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+  z-index: 81;
+  pointer-events: none;
+  display: block;
+}
+
+.youtube-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 80;
+}
+
+.MV_btn_close {
+  width: 7%;
+  position: absolute;
+  right: 46%;
+  top: 39px;
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.8s;
+  overflow: visible;
+  background-color: rgba(0, 255, 255, 0);
+  /*顏色標記*/
+}
+
+.MV_btn_close:hover {
+  animation: spin 0.6s ease-in-out;
+}
+
+.MV_btn_close img {
+  width: 100%;
+}
+
+@media (max-width: 1800px) {
+  .MV_btn_close {
+    top: -15px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .MV_btn_close {
+    top: -40px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .MV_btn_close {
+    top: -46px;
+  }
+
+  .MV_star_1 {
+    width: 37%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+  }
+
+  .MV_star_2 {
+    width: 41%;
+    height: auto;
+    top: 98%;
+    left: 50%;
+  }
+}
+
+@media (max-width: 1360px) {
+  .MV_btn_close {
+    top: -72px;
+  }
+}
+
+@media (max-width: 1220px) {
+  .MV_btn_close {
+    top: -103px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .MV_btn_close {
+    top: -127px;
+  }
+
+  .MV_star_1 {
+    width: 37%;
+    height: auto;
+    top: -15%;
+    left: 50%;
+  }
+
+  .MV_star_2 {
+    width: 41%;
+    height: auto;
+    top: 117%;
+    left: 50%;
+  }
+}
+
+@media (max-width: 880px) {
+  .MV_br {
+    display: none;
+  }
+
+  .MV_btn_close {
+    top: -121px;
+  }
+
+  .MV_btn_close:hover {
+    animation: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .MV_inner_pop_1 {
+    position: relative;
+    width: 90%;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .MV_btn_close {
+    width: 11%;
+    right: 36%;
+    top: -197px;
+    display: inline-block;
+    margin-bottom: 2%;
+    transform: translate(-50%, -50%);
+    z-index: 80;
+  }
+
+  .MV_star_1 {
+    width: 37%;
+    height: auto;
+    top: -26%;
+    left: 20%;
+    z-index: 0;
+  }
+
+  .MV_star_2 {
+    width: 41%;
+    height: auto;
+    top: 122%;
+    left: 73%;
+    z-index: 0;
+  }
+}
+
+@media (max-width: 580px) {
+  .MV_btns {
+    margin-top: -19%;
+    transition: 0.8s;
+  }
+
+  .MV_box {
+    position: absolute;
+    width: 100%;
+    height: 256px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: #56555d 5px solid;
+  }
+
+  .MV_btn_close {
+    width: 11%;
+    right: 36%;
+    top: -83px;
+    display: inline-block;
+    margin-bottom: 2%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width: 414px) {
+  .MV_btns {
+    margin-top: -22%;
+    transition: 0.8s;
+  }
+
+  .MV_star_1 {
+    width: 37%;
+    height: auto;
+    top: -44%;
+    left: 20%;
+  }
+
+  .MV_star_2 {
+    width: 64%;
+    height: auto;
+    top: 152%;
+    left: 54%;
+  }
+}
+
+@media (max-width: 320px) {
+  .MV_btn_close {
+    width: 16%;
+    right: 33%;
+    top: -106px;
+    display: inline-block;
+    margin-bottom: 2%;
+    transform: translate(-50%, -50%);
+    z-index: 80;
+  }
+
+  .MV_star_1 {
+    width: 73%;
+    height: auto;
+    top: -70%;
+    left: 42%;
+    z-index: 0;
+  }
+
+  .MV_star_2 {
+    width: 65%;
+    height: auto;
+    top: 182%;
+    left: 54%;
+  }
+}
+
+/*--↓神鏡絕景_pop_1↓--*/
+.slick_test_pop_1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 400;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick_inner_pop_1 {
+  position: relative;
+  width: 80%;
+  max-width: 768px;
+  height: auto;
+  padding-bottom: 40%;
+  margin: auto;
+  display: none;
+  background-color: rgba(172, 223, 54, 0);
+}
+
+.slick_star_1 {
+  position: absolute;
+  width: 40%;
+  height: auto;
+  top: 16%;
+  left: -3%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.slick_star_2 {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 85%;
+  left: 103%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.slick_btn_retest {
+  margin-left: 20px;
+}
+
+.slick_box {
+  position: absolute;
+  width: 100%;
+  height: 438px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: #56555d 5px solid;
+}
+
+.slick_br {
+  position: absolute;
+  width: 110.4%;
+  height: auto;
+  top: 49.4%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+  z-index: 81;
+  pointer-events: none;
+  display: block;
+}
+
+.youtube-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 80;
+}
+
+.slick_btn_close {
+  width: 7%;
+  position: absolute;
+  right: 46%;
+  top: 39px;
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.8s;
+  overflow: visible;
+  background-color: rgba(0, 255, 255, 0);
+  /*顏色標記*/
+}
+
+.slick_btn_close:hover {
+  animation: spin 0.6s ease-in-out;
+}
+
+.slick_btn_close img {
+  width: 100%;
+}
+
+/*--↓神鏡絕景_pop_2↓--*/
+.slick_test_pop_2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 400;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick_inner_pop_2 {
+  position: relative;
+  width: 80%;
+  max-width: 768px;
+  height: auto;
+  padding-bottom: 40%;
+  margin: auto;
+  display: none;
+  background-color: rgba(172, 223, 54, 0);
+}
+
+.slick_star_1 {
+  position: absolute;
+  width: 40%;
+  height: auto;
+  top: 16%;
+  left: -3%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.slick_star_2 {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 85%;
+  left: 103%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.slick_btn_retest {
+  margin-left: 20px;
+}
+
+.slick_box {
+  position: absolute;
+  width: 100%;
+  height: 438px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: #56555d 5px solid;
+}
+
+.slick_br {
+  position: absolute;
+  width: 110.4%;
+  height: auto;
+  top: 49.4%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+  z-index: 81;
+  pointer-events: none;
+  display: block;
+}
+
+.youtube-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 80;
+}
+
+.slick_btn_close {
+  width: 7%;
+  position: absolute;
+  right: 46%;
+  top: 39px;
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.8s;
+  overflow: visible;
+  background-color: rgba(0, 255, 255, 0);
+  /*顏色標記*/
+}
+
+.slick_btn_close:hover {
+  animation: spin 0.6s ease-in-out;
+}
+
+.slick_btn_close img {
+  width: 100%;
+}
+
+/*--↓神鏡絕景_pop_3↓--*/
+.slick_test_pop_3 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 400;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick_inner_pop_3 {
+  position: relative;
+  width: 80%;
+  max-width: 768px;
+  height: auto;
+  padding-bottom: 40%;
+  margin: auto;
+  display: none;
+  background-color: rgba(172, 223, 54, 0);
+}
+
+.slick_star_1 {
+  position: absolute;
+  width: 40%;
+  height: auto;
+  top: 16%;
+  left: -3%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.slick_star_2 {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 85%;
+  left: 103%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.slick_btn_retest {
+  margin-left: 20px;
+}
+
+.slick_box {
+  position: absolute;
+  width: 100%;
+  height: 438px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: #56555d 5px solid;
+}
+
+.slick_br {
+  position: absolute;
+  width: 110.4%;
+  height: auto;
+  top: 49.4%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+  z-index: 81;
+  pointer-events: none;
+  display: block;
+}
+
+.youtube-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 80;
+}
+
+.slick_btn_close {
+  width: 7%;
+  position: absolute;
+  right: 46%;
+  top: 39px;
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.8s;
+  overflow: visible;
+  background-color: rgba(0, 255, 255, 0);
+  /*顏色標記*/
+}
+
+.slick_btn_close:hover {
+  animation: spin 0.6s ease-in-out;
+}
+
+.slick_btn_close img {
+  width: 100%;
+}
+
+/*--↓神鏡絕景_pop_4↓--*/
+.slick_test_pop_4 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 400;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick_inner_pop_4 {
+  position: relative;
+  width: 80%;
+  max-width: 768px;
+  height: auto;
+  padding-bottom: 40%;
+  margin: auto;
+  display: none;
+  background-color: rgba(172, 223, 54, 0);
+}
+
+.slick_star_1 {
+  position: absolute;
+  width: 40%;
+  height: auto;
+  top: 16%;
+  left: -3%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.slick_star_2 {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 85%;
+  left: 103%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.slick_btn_retest {
+  margin-left: 20px;
+}
+
+.slick_box {
+  position: absolute;
+  width: 100%;
+  height: 438px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: #56555d 5px solid;
+}
+
+.slick_br {
+  position: absolute;
+  width: 110.4%;
+  height: auto;
+  top: 49.4%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+  z-index: 81;
+  pointer-events: none;
+  display: block;
+}
+
+.youtube-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 80;
+}
+
+.slick_btn_close {
+  width: 7%;
+  position: absolute;
+  right: 46%;
+  top: 39px;
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.8s;
+  overflow: visible;
+  background-color: rgba(0, 255, 255, 0);
+  /*顏色標記*/
+}
+
+.slick_btn_close:hover {
+  animation: spin 0.6s ease-in-out;
+}
+
+.slick_btn_close img {
+  width: 100%;
+}
+
+/*--↓神鏡絕景_pop_5↓--*/
+.slick_test_pop_5 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 400;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick_inner_pop_5 {
+  position: relative;
+  width: 80%;
+  max-width: 768px;
+  height: auto;
+  padding-bottom: 40%;
+  margin: auto;
+  display: none;
+  background-color: rgba(172, 223, 54, 0);
+}
+
+.slick_star_1 {
+  position: absolute;
+  width: 40%;
+  height: auto;
+  top: 16%;
+  left: -3%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.slick_star_2 {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 85%;
+  left: 103%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.slick_btn_retest {
+  margin-left: 20px;
+}
+
+.slick_box {
+  position: absolute;
+  width: 100%;
+  height: 438px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: #56555d 5px solid;
+}
+
+.slick_br {
+  position: absolute;
+  width: 110.4%;
+  height: auto;
+  top: 49.4%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+  z-index: 81;
+  pointer-events: none;
+  display: block;
+}
+
+.youtube-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 80;
+}
+
+.slick_btn_close {
+  width: 7%;
+  position: absolute;
+  right: 46%;
+  top: 39px;
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.8s;
+  overflow: visible;
+  background-color: rgba(0, 255, 255, 0);
+  /*顏色標記*/
+}
+
+.slick_btn_close:hover {
+  animation: spin 0.6s ease-in-out;
+}
+
+.slick_btn_close img {
+  width: 100%;
+}
+
+/*--↓神鏡絕景_pop_6↓--*/
+.slick_test_pop_6 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 400;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick_inner_pop_6 {
+  position: relative;
+  width: 80%;
+  max-width: 768px;
+  height: auto;
+  padding-bottom: 40%;
+  margin: auto;
+  display: none;
+  background-color: rgba(172, 223, 54, 0);
+}
+
+.slick_star_1 {
+  position: absolute;
+  width: 40%;
+  height: auto;
+  top: 16%;
+  left: -3%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.slick_star_2 {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 85%;
+  left: 103%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.slick_btn_retest {
+  margin-left: 20px;
+}
+
+.slick_box {
+  position: absolute;
+  width: 100%;
+  height: 438px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: #56555d 5px solid;
+}
+
+.slick_br {
+  position: absolute;
+  width: 110.4%;
+  height: auto;
+  top: 49.4%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+  z-index: 81;
+  pointer-events: none;
+  display: block;
+}
+
+.youtube-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 80;
+}
+
+.slick_btn_close {
+  width: 7%;
+  position: absolute;
+  right: 46%;
+  top: 39px;
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.8s;
+  overflow: visible;
+  background-color: rgba(0, 255, 255, 0);
+  /*顏色標記*/
+}
+
+.slick_btn_close:hover {
+  animation: spin 0.6s ease-in-out;
+}
+
+.slick_btn_close img {
+  width: 100%;
+}
+
+@media (max-width: 1800px) {
+  .slick_btn_close {
+    top: -15px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .slick_btn_close {
+    top: -40px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .slick_btn_close {
+    top: -46px;
+  }
+
+  .slick_star_1 {
+    width: 37%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+  }
+
+  .slick_star_2 {
+    width: 41%;
+    height: auto;
+    top: 98%;
+    left: 50%;
+  }
+}
+
+@media (max-width: 1360px) {
+  .slick_btn_close {
+    top: -72px;
+  }
+}
+
+@media (max-width: 1220px) {
+  .slick_btn_close {
+    top: -103px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .slick_btn_close {
+    top: -127px;
+  }
+
+  .slick_star_1 {
+    width: 37%;
+    height: auto;
+    top: -15%;
+    left: 50%;
+  }
+
+  .slick_star_2 {
+    width: 41%;
+    height: auto;
+    top: 117%;
+    left: 50%;
+  }
+}
+
+@media (max-width: 880px) {
+  .slick_br {
+    display: none;
+  }
+
+  .slick_btn_close {
+    top: -121px;
+  }
+
+  .slick_btn_close:hover {
+    animation: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .slick_inner_pop_6 {
+    position: relative;
+    width: 90%;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .slick_btn_close {
+    width: 11%;
+    right: 36%;
+    top: -197px;
+    display: inline-block;
+    margin-bottom: 2%;
+    transform: translate(-50%, -50%);
+    z-index: 80;
+  }
+
+  .slick_star_1 {
+    width: 37%;
+    height: auto;
+    top: -26%;
+    left: 20%;
+    z-index: 0;
+  }
+
+  .slick_star_2 {
+    width: 41%;
+    height: auto;
+    top: 122%;
+    left: 73%;
+    z-index: 0;
+  }
+}
+
+@media (max-width: 580px) {
+  .slick_btns {
+    margin-top: -19%;
+    transition: 0.8s;
+  }
+
+  .slick_box {
+    position: absolute;
+    width: 100%;
+    height: 256px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: #56555d 5px solid;
+  }
+
+  .slick_btn_close {
+    width: 11%;
+    right: 36%;
+    top: -83px;
+    display: inline-block;
+    margin-bottom: 2%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width: 414px) {
+  .slick_btns {
+    margin-top: -22%;
+    transition: 0.8s;
+  }
+
+  .slick_star_1 {
+    width: 37%;
+    height: auto;
+    top: -44%;
+    left: 20%;
+  }
+
+  .slick_star_2 {
+    width: 64%;
+    height: auto;
+    top: 152%;
+    left: 54%;
+  }
+}
+
+@media (max-width: 320px) {
+  .slick_btn_close {
+    width: 16%;
+    right: 33%;
+    top: -106px;
+    display: inline-block;
+    margin-bottom: 2%;
+    transform: translate(-50%, -50%);
+    z-index: 80;
+  }
+
+  .slick_star_1 {
+    width: 73%;
+    height: auto;
+    top: -70%;
+    left: 42%;
+    z-index: 0;
+  }
+
+  .slick_star_2 {
+    width: 65%;
+    height: auto;
+    top: 182%;
+    left: 54%;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pop-success img.pop-bg {
+  display: none;
+}
+
+.pop-success .content {
+  display: none;
+}
+
+.pop-success .ch01_text {
+  display: none;
+}
+
+.pop-success .down_text {
+  display: none;
+}
+
+..pop-success .long_text {
+  display: none;
+}
+
+.pop-success .ch01_img {
+  display: none;
+}
+.pop-success .ch02_img {
+  display: none;
+}
+.pop-success .ch03_img {
+  display: none;
+}
+.pop-success .ch04_img {
+  display: none;
+}
+.pop-success .ch05_img {
+  display: none;
+}
+.pop-success .ch06_img {
+  display: none;
+}
+
+.pop-success .close-btn {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* popup基本預設設定 不用動 */
+  .popup-wrap {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    content: "";
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 100;
+  }
+
+  .popup-box {
+    width: 100%;
+    transform: translate(-50%, -50%) scale(1);
+    position: absolute;
+    top: 53%;
+    left: 50%;
+  }
+
+  /* 自己的popup樣式 */
+  .pop-success {
+    position: relative;
+  }
+
+  .pop-success img.pop-bg {
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    display: block;
+  }
+
+  .pop-success .content {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 100%;
+    padding: 2%;
+    transform: translate(-50%, 0%);
+    display: block;
+  }
+
+  .pop-success .ch01_text {
+    margin-top: 3%;
+    margin-left: 8%;
+    display: block;
+  }
+
+  .pop-success .down_text {
+    margin-top: 65%;
+    margin-left: 8%;
+    display: block;
+  }
+
+  .pop-success .long_text {
+    width: 85%;
+    margin-top: 3%;
+    margin-left: 5%;
+    display: block;
+  }
+
+  .pop-success .ch01_img {
+    position: absolute;
+    top: 63%;
+    right: 0px;
+    bottom: 0;
+    width: 100%;
+    height: 200%;
+    background: url(../images/ch01_img.png) no-repeat;
+    background-size: 165%;
+    background-position: calc(50% - 3%) top;
+    animation: fadeInRight 1s 0.5s linear;
+    display: block;
+  }
+
+  .pop-success .ch02_img {
+    position: absolute;
+    top: 0%;
+    right: 0px;
+    bottom: 0;
+    width: 100%;
+    height: 200%;
+    background: url(../images/ch02_img.png) no-repeat;
+    background-size: 140%;
+    background-position: calc(50% - 60%) top;
+    animation: fadeInRight 1s 0.5s linear;
+    display: block;
+  }
+
+  .pop-success .ch03_img {
+    position: absolute;
+    top: 7%;
+    right: 0px;
+    bottom: 0;
+    width: 100%;
+    height: 200%;
+    background: url(../images/ch03_img.png) no-repeat;
+    background-size: 135%;
+    background-position: calc(50% - 85%) top;
+    animation: fadeInRight 1s 0.5s linear;
+    display: block;
+  }
+
+  .pop-success .ch04_img {
+    position: absolute;
+    top: 6%;
+    right: 0px;
+    bottom: 0;
+    width: 100%;
+    height: 200%;
+    background: url(../images/ch04_img.png) no-repeat;
+    background-size: 107%;
+    background-position: calc(50% - 76%) top;
+    animation: fadeInRight 1s 0.5s linear;
+    display: block;
+  }
+
+  .pop-success .ch05_img {
+    position: absolute;
+    top: 6%;
+    right: 0px;
+    bottom: 0;
+    width: 80%;
+    height: 200%;
+    background: url(../images/ch05_img.png) no-repeat;
+    background-size: 120%;
+    background-position: calc(50% - 115%) top;
+    animation: fadeInRight 1s 0.5s linear;
+    display: block;
+  }
+
+  .pop-success .ch06_img {
+    position: absolute;
+    top: 42%;
+    right: 0px;
+    bottom: 0;
+    width: 90%;
+    height: 200%;
+    background: url(../images/ch06_img.png) no-repeat;
+    background-size: 108%;
+    background-position: calc(50% - 108%) top;
+    animation: fadeInRight 1s 0.5s linear;
+    display: block;
+  }
+
+  /* 關閉按鈕樣式 */
+  .pop-success .close-btn {
+    width: 12%;
+    height: auto;
+    position: absolute;
+    top: -10%;
+    right: 50%;
+    transform: translate(50%, -50%) scale(1);
+    transition: 0.5s;
+    display: block;
+  }
+
+  .transform-in,
+  .transform-out {
+    display: block;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+  }
+
+  .transform-in {
+    -webkit-transform: translate(50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .transform-out {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
